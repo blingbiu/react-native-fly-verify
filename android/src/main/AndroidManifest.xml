@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.maochunjie.flyverifyscope">
+  <application>
+    <meta-data
+        android:name="custom-AppKey"
+        android:value="${FLY_VERIFY_KEY}" />
+    <meta-data
+        android:name="custom-AppSecret"
+        android:value="${FLY_VERIFY_SECRET}" />
+  </application>
+</manifest>
