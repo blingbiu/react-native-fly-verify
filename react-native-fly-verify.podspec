@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
 
-
   s.dependency "React-Core"
-  s.dependency "FlyVerify", "13.6.7"
+  s.dependency "FlyVerify-NoUI-Specs"
+  
 end
