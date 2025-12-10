@@ -20,3 +20,8 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 # sdk
+
+-keep class cn.fly.** {*;}
+-keepclassmembers class * {
+ static final long serialVersionUID;
+}
